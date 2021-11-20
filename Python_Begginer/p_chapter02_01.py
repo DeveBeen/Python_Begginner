@@ -61,8 +61,8 @@ class Car:
         self._company = company
         self._details = details
     
-#    def __str__(self): # 매직 메소드 class 내부 객체를 출력 시 내가 원하는 형식으로 리턴해서 보여준 메소드이다. (원래 print를 쓰면 id값이 출력이 되지만 파이썬에 내장되어있는 __str__을 사용하면 원하는 형식으로 return이 가능하다.)
-#        return 'str : {} - {}'.format(self._company, self._details)
+    def __str__(self): # 매직 메소드 class 내부 객체를 출력 시 내가 원하는 형식으로 리턴해서 보여준 메소드이다. (원래 print를 쓰면 id값이 출력이 되지만 파이썬에 내장되어있는 __str__을 사용하면 원하는 형식으로 return이 가능하다.)
+        return 'str : {} - {}'.format(self._company, self._details)
 
     def __repr__(self): # __srt__과 비슷한 메소드지만 __str__은 사용자를 위해 정보를 확인하는 방식의 메소드라면 __repr__은 객체에 엄격한 타입, 정보를 인식할 수 있는 공식적인 방식의 메소드
         return 'repr : {} - {}'.format(self._company, self._details)
