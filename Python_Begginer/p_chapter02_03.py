@@ -10,7 +10,7 @@ class Car:
     Date : 2021.11.20
     Description : Class, Static, Instance Method
     """
-
+ 
     price_per_raise = 1.0
 
     def __init__(self, company, details):
