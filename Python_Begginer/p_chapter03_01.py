@@ -1,4 +1,4 @@
-.8# Chapter 03-01
+# Chapter 03-01 : 파이썬 데이터 모델
 # Special Method (Masic Method) : Class 안에 정의할 수 있는 특별한(Built-in) 메소드 ['__()__' 형태]
 # 파이썬의 핵심 -> 시퀀스(Sequence), 반복(Iterator), 함수(Functions), 클래스(Class)
 
