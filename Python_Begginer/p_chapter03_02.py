@@ -9,6 +9,7 @@
 # Max : (5,10) = 10
 
 class Vector(object):
+    '''dsdsds'''
 
     def __init__(self, *args): # unpacking으로 받는 __init__
         '''Create a vector, example : v = Vector(5, 10)''' # 이처럼 메소드 단위로 주석을 달아 호출할 수 있다.
